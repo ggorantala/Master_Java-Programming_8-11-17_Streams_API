@@ -2,6 +2,7 @@ package strings;
 
 /*
  * This class contains snippets to create strings in Java.
+ *
  * @author ggorantala
  */
 public class CreateStrings {
