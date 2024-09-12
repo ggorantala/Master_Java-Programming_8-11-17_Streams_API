@@ -12,7 +12,7 @@ public class CreateStrings {
         // using constructor
         String name = "John Doe";
 
-        char[] charArray = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!'};
+        char[] charArray = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!'}; // char array
         String newGreeting = new String(charArray); // Hello world!
 
     }
