@@ -5,6 +5,7 @@ out/
 
 ### Intellij files
 .idea
+out
 Java Course.iml
 
 ### Eclipse ###
