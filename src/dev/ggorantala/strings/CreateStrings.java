@@ -1,4 +1,4 @@
-package strings;
+package dev.ggorantala.strings;
 
 /*
  * This class contains snippets to create strings in Java.

@@ -1,4 +1,4 @@
-package strings;
+package dev.ggorantala.strings;
 
 /*
  * This class contains snippets to create string literals, objects in Java.
@@ -19,7 +19,7 @@ public class StringPool {
 
     static void stringConstructor() {
         String third = "Hello world";
-        String fourth = new String("Hello world"); // fourth creates a new object in heap
+        String fourth = "Hello world"; // fourth creates a new object in heap
         System.out.println(third == fourth); // false, different references
         System.out.println(third.equals(fourth)); // true, same objects
     }

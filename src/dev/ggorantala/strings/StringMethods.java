@@ -1,4 +1,4 @@
-package strings;
+package dev.ggorantala.strings;
 
 /*
  * The String class in Java provides various methods to manipulate and work with strings effectively.
