@@ -1,6 +1,6 @@
 # java-mastery
-This is full Java course containing various code snippets and explanations from https://ggorantala.dev. You will see all the course code packed in this repository.
-
+This code is part of the course **Master Java 8(11/17), along with Functional Programming With Lambdas And Streams API**. 
+Find this course on https://www.ggorantala.dev/all-courses/ page.
 ## Table Of Contents
 1. Getting started
 2. Types
