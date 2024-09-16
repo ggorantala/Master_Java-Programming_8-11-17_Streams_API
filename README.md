@@ -1,4 +1,4 @@
-# Master Java Programming 8(11/17), along with Functional Programming With Lambdas And Streams API
+# Master Java8(11/17) Programming with Steams API, Concurrency
 This code is part of the course **Master Java 8(11/17), along with Functional Programming With Lambdas And Streams API**. 
 Find this course on https://www.ggorantala.dev/all-courses/ page.
 ## Table Of Contents
