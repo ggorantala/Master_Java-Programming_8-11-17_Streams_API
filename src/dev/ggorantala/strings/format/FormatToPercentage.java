@@ -1,4 +1,6 @@
-package dev.ggorantala.strings.operations;
+package dev.ggorantala.strings.format;
+
+import java.text.NumberFormat;
 
 /*
  * This code is part of the course "Master Java 8(11/17), along with Functional Programming With Lambdas And Streams API"
@@ -9,10 +11,13 @@ package dev.ggorantala.strings.operations;
  * @author Gopi Gorantala
  * Date: 16/09/24
  */
-public class Strip {
+public class FormatToPercentage {
     public static void main(String[] args) {
-        String text = "   Hello   ";
-        String strippedText = text.strip();  // "Hello"
-        System.out.println(strippedText);  // Outputs: "Hello"
+        double fraction = 0.75;
+
+        NumberFormat percentFormatter = NumberFormat.getPercentInstance();
+        String formattedPercent = percentFormatter.format(fraction);
+
+        System.out.println(formattedPercent);  // Outputs: "75%"
     }
 }

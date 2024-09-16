@@ -1,4 +1,6 @@
-package dev.ggorantala.strings.operations;
+package dev.ggorantala.strings.format;
+
+import java.text.DecimalFormat;
 
 /*
  * This code is part of the course "Master Java 8(11/17), along with Functional Programming With Lambdas And Streams API"
@@ -9,10 +11,13 @@ package dev.ggorantala.strings.operations;
  * @author Gopi Gorantala
  * Date: 16/09/24
  */
-public class Strip {
+public class FormattingWithoutExtraDecimalPlaces {
     public static void main(String[] args) {
-        String text = "   Hello   ";
-        String strippedText = text.strip();  // "Hello"
-        System.out.println(strippedText);  // Outputs: "Hello"
+        double number = 45.6;
+
+        DecimalFormat df = new DecimalFormat("#.##");
+        String formattedNumber = df.format(number);
+
+        System.out.println(formattedNumber);  // Outputs: "45.6"
     }
 }
