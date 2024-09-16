@@ -28,6 +28,7 @@ public class RegularExpressions {
             System.out.println("Found digits: " + matcher.group());  // Outputs: "12345"
         }
     }
+
     private static void extractingPatterns() {
         String text = "Contact us at support@example.com or sales@example.org.";
         Pattern pattern = Pattern.compile("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");

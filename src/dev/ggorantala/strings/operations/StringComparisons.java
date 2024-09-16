@@ -44,13 +44,13 @@ public class StringComparisons {
         int result = str4.compareTo(str5);  // Negative value, "Apple" comes before "apple"
 
         // using compareToIgnoreCase()
-        int result5= str4.compareToIgnoreCase(str5);  // 0, considered equal ignoring case
+        int result5 = str4.compareToIgnoreCase(str5);  // 0, considered equal ignoring case
     }
 
     private static void doubleEquals() {
         String s1 = "Hello";
         String s2 = "Hello";
-        String s3 = new String("Hello");
+        String s3 = "Hello";
 
         boolean refEqual1 = (s1 == s2);  // true, both refer to the same object in the String Pool
         boolean refEqual2 = (s1 == s3);  // false, s3 is a new object even though content is the same

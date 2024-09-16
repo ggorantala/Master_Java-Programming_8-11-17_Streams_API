@@ -41,7 +41,7 @@ public class StringConcatenation {
         // handling null strings during concatenation
         String name1 = null;
         String greeting1 = "Hello, " + Objects.toString(name, "");  // "Hello, "
-        
+
         // alternatively, you can handle null with simple check:
         String name2 = null;
         String greeting2 = "Hello, " + (name == null ? "" : name);  // "Hello, "
