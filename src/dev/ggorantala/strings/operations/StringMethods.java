@@ -6,7 +6,7 @@ package dev.ggorantala.strings.operations;
  *
  * Copyright (C) 2024 by Gopi Gorantala, MIT License.
  *
- * @author ggorantala
+ * @author Gopi Gorantala
  * Date: 16/09/24
  */
 public class StringMethods {

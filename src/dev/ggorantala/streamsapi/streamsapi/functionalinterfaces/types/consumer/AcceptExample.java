@@ -5,7 +5,7 @@ package dev.ggorantala.streamsapi.streamsapi.functionalinterfaces.types.consumer
  *
  * Copyright (C) 2023 by Gopi Gorantala.
  *
- * @author ggorantala
+ * @author Gopi Gorantala
  * Date: 07/05/23
  */
 
